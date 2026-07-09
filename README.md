@@ -1,4 +1,4 @@
-## Executive Summary (STAR Method)
+## Executive Summary
 
 Flipkart wanted to understand how customer service quality was affecting customer retention and overall satisfaction in a high-volume e-commerce environment. With thousands of customer support interactions across call centers, channels, and issue types, the challenge was to identify what was actually driving CSAT and where service gaps were creating churn risk.
 
