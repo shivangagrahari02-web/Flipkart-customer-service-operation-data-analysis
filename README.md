@@ -1,9 +1,11 @@
 ## Executive Summary
 
-Flipkart wanted to understand how customer service quality was affecting customer retention and overall satisfaction in a high-volume e-commerce environment. With thousands of customer support interactions across call centers, channels, and issue types, the challenge was to identify what was actually driving CSAT and where service gaps were creating churn risk.
-
-Analyze customer service call data, define the key performance metrics linked to retention, test business hypotheses, and surface the operational factors most likely to influence customer satisfaction and repeat usage.
- 
-Built a metric tree around customer retention, defined core KPIs such as CSAT, response time, call duration, sentiment, and first point resolution, then cleaned and transformed the data for analysis. Used Excel pivot tables, correlation analysis, descriptive statistics, and dashboarding to examine call center performance, weekday patterns, sentiment trends, and issue distribution across support channels.
-
-The analysis showed that customer sentiment had a strong positive relationship with CSAT, while response time and call duration had minimal direct impact on satisfaction. Billing issues accounted for the majority of support tickets, and chatbot interactions plus high-load days like Friday were linked to lower satisfaction. These findings helped separate operational speed from real service quality drivers and provided clear direction for improving retention through better issue handling, channel performance, and customer experience design.
+- Analyzed **30K+ customer service interactions** to identify the operational factors influencing customer satisfaction and retention across Flipkart’s customer support ecosystem.
+- Cleaned and transformed customer call data using Excel by handling missing values, removing duplicates, standardizing formats, and engineering analytical fields for response time, call duration, weekdays, and sentiment analysis.
+- Designed a business KPI framework and metrics tree to monitor **CSAT, Response Time, Call Duration, Sentiment Score, First Contact Resolution, Queue Waiting Time,** and **Churn Rate**, translating business objectives into measurable performance indicators.
+- Applied **Exploratory Data Analysis (EDA), descriptive statistics, pivot table analysis, correlation analysis,** and **hypothesis testing** to evaluate customer service performance across call centers, support channels, weekdays, and issue categories.
+- Identified a **strong positive correlation (r ≈ 0.89)** between **customer sentiment** and **CSAT**, establishing service experience as the strongest predictor of customer satisfaction.
+- Found that **Billing-related issues accounted for approximately 71.37%** of total support tickets, making them the largest contributor to customer dissatisfaction and operational workload.
+- Discovered that **response time** and **call duration** had minimal impact on customer satisfaction, indicating that **resolution quality** matters more than handling speed.
+- Revealed that **chatbot support** delivered comparatively lower customer satisfaction, while **Fridays** experienced the highest operational load and reduced CSAT, highlighting opportunities for channel optimization and workforce planning.
+- Developed an interactive Excel dashboard featuring KPI scorecards, pivot charts, and operational insights, delivering actionable recommendations to improve **customer experience, service quality, issue resolution, and long-term customer retention**.
